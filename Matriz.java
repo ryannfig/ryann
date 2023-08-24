@@ -15,7 +15,7 @@ public class MATRIZ {
         
         M11 = Integer.parseInt(sM11);
         M21 = Integer.parseInt(sM21);
-        M12= Integer.parseInt(sM12); 
+        M12 = Integer.parseInt(sM12); 
         M22 = Integer.parseInt(sM22);
         M13 = Integer.parseInt(sM13);
         M23 = Integer.parseInt(sM23);
