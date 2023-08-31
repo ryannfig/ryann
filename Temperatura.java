@@ -1,26 +1,24 @@
-package div3;
+package febre;
 import javax.swing.JOptionPane;
-public class DIV3 {
-
+public class FEBRE {
 
     public static void main(String[] args) {
-       double n;
-       String sn;
+       double febre;
+       String sfebre;
        
-       sn = JOptionPane.showInputDialog(null, "Digite o número: ");
+       sfebre = JOptionPane.showInputDialog(null, "Digite a temperatura: ");
        
-       n = Double.parseDouble(sn);
+       febre = Double.parseDouble(sfebre);
        
-       
-       if((n % 2 == 0) && (n % 3 == 0))
+       if(febre >= 36.5)
        {
-           JOptionPane.showMessageDialog(null, "O número " +n+ " é par e divisível por 3.");
+           JOptionPane.showMessageDialog(null, "Está com febre");
        }    
        else
        {
-          JOptionPane.showMessageDialog(null, "O número " +n+ " não é divisível por 3."); 
+           JOptionPane.showMessageDialog(null, " Sem febre");
        }    
-       
     }
     
 }
+
